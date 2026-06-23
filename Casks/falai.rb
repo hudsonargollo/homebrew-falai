@@ -5,7 +5,8 @@ cask "falai" do
   sha256 arm:   "35be55551c617707229ecafeeda0c4b2a1cd26d137f47d1f20826771198eb5c6",
          intel: "37cd517ff5c8f0c6d112b79dd4ab3427607c6d20c268e25ffe77e4494078d343"
 
-  url "https://github.com/hudsonargollo/falai/releases/download/v#{version}/FalaAi_#{version}_#{arch}.dmg"
+  url "https://github.com/hudsonargollo/falai/releases/download/v#{version}/FalaAi_#{version}_#{arch}.dmg",
+      verified: "github.com/hudsonargollo/falai/"
   name "FalaAí"
   desc "Ditado por voz offline, em qualquer app"
   homepage "https://falai.tektone.com.br/"
