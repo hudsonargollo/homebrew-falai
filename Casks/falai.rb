@@ -1,9 +1,9 @@
 cask "falai" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.19"
-  sha256 arm:   "cb5e0acc65b8afe4ee87615884bf3b8616ea4cf383ce7bc13d42c504b721bdda",
-         intel: "699331df672b7559216eb2e5edcc839893a236c4cb5f92cdd0f1c89bafaf8533"
+  version "0.1.20"
+  sha256 arm:   "28755af19fd5a52ae782317ba659e6a80b7aa2f025fc8c397b0cef686e940220",
+         intel: "56321af9571022038b543b7fb8b29f7279331207d146388fd549309bb968ac6f"
 
   url "https://github.com/hudsonargollo/falai/releases/download/v#{version}/FalaAi_#{version}_#{arch}.dmg",
       verified: "github.com/hudsonargollo/falai/"
